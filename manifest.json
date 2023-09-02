@@ -6,7 +6,8 @@
     "author":"babys",
     "action":{
         "default_popup": "index.html",
-        "default_title": "current monkey"
+        "default_title": "current monkey",
+        "default_icon": "monkey1.png"
     },
     "content_scripts": [
         {
@@ -14,7 +15,9 @@
             "css": ["style.css"],
             "js": ["app.js"]
         }
-    ]
-    
+    ],
+    "background":{
+        "service_worker": "background.js"
+    }
 
 }
