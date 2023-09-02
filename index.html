@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <script src="app.js" defer></script>
+
+    <title>StopWatch</title>
 </head>
 <body>
     <div class="container" style="width: 450px;">
         <h1 class="mainTitle">Study MonkEase</h1>
         <p>
-            <img class="monkeImg" src="monke1.png"></img>
+            <img class="monkeImg" src="monkey1.png"></img>
         </p>
+        <div class="stopwatch">
+            <div class="display">00 : 00 : 00</div>
+            <div class="buttons">
+                <button type="button" class="start">Start</button>
+                <button type="button" class="reset">Stop</button>
+            </div>
+        </div>
+        <div class="points">Points: </div>
     </div>
 </body>
 </html>
